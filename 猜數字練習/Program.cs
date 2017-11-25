@@ -48,7 +48,7 @@ namespace 猜數字練習
                         min = keyin; //將keyin 值指派給最小值，擴大範圍
                         Console.Write("大哥，不夠大");
                     }
-                    Console.WriteLine($"猜了{count} 了");
+                    Console.WriteLine($"猜了 [{count}] 次了");
                     Console.WriteLine();
                 }
                 else
